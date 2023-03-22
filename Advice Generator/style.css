@@ -1,0 +1,42 @@
+body{
+  background-color: aquamarine;
+  font-family: sans-serif;
+}
+
+#container {
+    text-align: center;
+    margin: 50px;
+    text-align: center;
+    position: absolute;
+    left: 45%;
+    top: 40%;
+    transform: translate(-50%,-50%);
+  }
+  h1{
+    margin-bottom: 50px;
+    font-size: 50px;
+  }
+  
+  #advice-btn {
+    padding: 15px 25px;
+    font-size: 18px;
+    margin-top: 50px;
+    border-radius: 10px;
+    background-color: #0f414f;
+    color: white;
+    cursor: pointer;
+  }
+  #advice-btn:hover{
+    background-color: #0f1618;
+    color: rgb(12, 184, 184);
+  }
+  
+  #advice-output {
+    font-size: 22px;
+    margin: 25px 0;
+    padding: 25px;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px #ccc;
+  }
+  
